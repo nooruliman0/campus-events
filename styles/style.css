@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Reset & Base */
 * {
     margin: 0;
@@ -81,4 +82,69 @@ footer .social-links a:hover {
 
 .btn-primary:hover {
     background-color: #3498db;
+=======
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.event-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 2rem;
+}
+
+.event-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  width: 300px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+.event-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.event-card h2 {
+  margin: 15px;
+  color: #004aad;
+}
+
+.event-card p {
+  margin: 10px 15px;
+  line-height: 1.4;
+}
+
+.date, .location {
+  font-weight: bold;
+  color: #555;
+}
+
+footer {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+>>>>>>> c6ef295 (Updated styles)
 }
